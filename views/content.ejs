@@ -1,0 +1,21 @@
+<html lang="en">
+<%- include('./partials/header.ejs')%>
+<body>
+    <div class="content">
+
+        <h2><%= Question.name %></h2>
+        <div class="content">
+            <p><%=Question.content%></p>
+
+        </div>
+        <a class="delete" data-doc="{%= question._id%>">delete</a>
+        
+
+
+        <!-- } -->
+
+    </div>
+    <%- include('./partials/footer.ejs') %>
+
+</body>
+</html>  
